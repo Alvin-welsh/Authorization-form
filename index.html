@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Authorization Form Document">
+    <meta name="keywords" content="Authorization form, legal document, Alvin Welsh Legal">
+    <meta name="author" content="Alvin Welsh Legal">
+    <link rel="stylesheet" href="style.css">
+    <title>Alvin Welsh Legal - Authorization Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Alvin Welsh Legal</h1>
+            <h2>Authorization Form</h2>
+            <p>
+                I, <strong>Diane</strong>, hereby authorize <b>Alvin Welsh Legal</b> and its representatives to act on my behalf regarding all legal matters related to the return of my husband, <strong>Chris</strong>, from Odessa, Ukraine. This authorization includes, but is not limited to, communication with relevant authorities, preparation and submission of necessary documents, and any other actions required to ensure his safe return.
+            </p>
+            <h3>Client Information:</h3>
+            <ul>
+                <li><b>Full Name:</b> Diane Deslauriers</li>
+                <li><b>Email:</b> dianeharvey@outlook.fr</li>
+                <li><b>Phone Number:</b> +1514 212 6266</li>
+            </ul>
+            <h3>Husband's Information:</h3>
+            <ul>
+                <li><b>Full Name:</b> Chris Willett</li>
+                <li><b>Current Location:</b> Odessa, Ukraine</li>
+            </ul>
+            <p>
+                I understand that by signing this form, I am granting Alvin Welsh Legal full authority to represent me in this matter.
+            </p>
+            <p>
+                <b>Client's Signature:</b> _______________
+                <br>
+            </p>
+            <p>
+                <b>Barrister's Signature:</b> <span class="signature">Alvin Welsh</span>
+                <b>Date:</b> <span id="datePlaceholder">[Date]</span>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Get current date and format as YYYY-MM-DD
+        var today = new Date().toISOString().split('T')[0];
+        // Replace the date placeholder with the current date
+        document.getElementById('datePlaceholder').textContent = today;
+    </script>
+</body>
+</html>
