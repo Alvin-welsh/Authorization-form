@@ -35,8 +35,8 @@
                 <br>
             </p>
             <p>
-                <b>Barrister's Signature:</b> <span class="signature">Alvin Welsh</span>
-                <b>Date:</b> <span id="datePlaceholder">[Date]</span>
+                <strong>Attorney:</strong> <span class="signature">Alvin Welsh</span><br>
+                <span id="attorneyDatePlaceholder">[Date]</span>
             </p>
         </div>
     </div>
@@ -45,7 +45,7 @@
         // Get current date and format as YYYY-MM-DD
         var today = new Date().toISOString().split('T')[0];
         // Replace the date placeholder with the current date
-        document.getElementById('datePlaceholder').textContent = today;
+        document.getElementById('attorneyDatePlaceholder').textContent = today;
     </script>
 </body>
 </html>
